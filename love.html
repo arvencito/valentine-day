@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz San Valentín, Isidora</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ffeded; /* Rosa claro */
+            font-family: 'Arial', sans-serif;
+        }
+
+        #container {
+            text-align: center;
+        }
+
+        #hearts {
+            font-size: 60px;
+            margin-bottom: 20px;
+            animation: floatHearts 1s ease-in-out infinite alternate;
+        }
+
+        #message {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        @keyframes floatHearts {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="hearts">❤️❤️❤️</div>
+        <div id="message">Feliz San Valentín, Isidora ❤️</div>
+    </div>
+</body>
+</html>
